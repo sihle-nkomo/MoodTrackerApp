@@ -1,0 +1,1 @@
+//A component that displays the list of moods.
