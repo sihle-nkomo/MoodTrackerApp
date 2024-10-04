@@ -1,13 +1,10 @@
 import React from 'react'
+import Homescreen from './src/screens/Homescreen';
 import {Text, View, Button} from 'react-native'
 
 const App = () => {
-return(
-   <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-         <Text>Mood Tracker</Text>
-         <Button title="Add Mood" onPress={() => console.log("Mood Added")} />
-       </View>
-     );
-   };
+return <Homescreen />;
+};
+   
 
    export default App;
